@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.59.3"
+  },
+  "devDependencies": {
+    "mixitup": "^3.3.1"
   }
 }

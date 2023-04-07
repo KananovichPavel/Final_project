@@ -1,0 +1,126 @@
+.footer-section {
+	background: $secondary-color-2;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.footer-option {
+	margin-bottom: 30px;
+	.fo-logo {
+		margin-bottom: 30px;
+		a {
+			display: inline-block;
+		}
+	}
+	ul {
+		margin-bottom: 12px;
+		li {
+			list-style: none;
+			font-size: 16px;
+			color: $para-color;
+			line-height: 30px;
+		}
+	}
+	
+	.fo-social {
+		a {
+			display: inline-block;
+			font-size: 16px;
+			color: $white-color;
+			width: 41px;
+			height: 41px;
+			background: #303030;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 41px;
+			-webkit-transition: all .3s;
+			-o-transition: all .3s;
+			transition: all .3s;
+			margin-right: 3px;
+			&:hover {
+				background: $primary-color;
+			}
+		}
+	}
+}
+
+.footer-widget {
+	margin-bottom: 30px;
+	&.fw-links {
+		padding-left: 35px;
+	}
+	h5 {
+		font-size: 20px;
+		color: $white-color;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+	ul {
+		li {
+			list-style: none;
+			a {
+				font-size: 16px;
+				color: $para-color;
+				line-height: 36px;
+			}
+		}
+	}
+	p {
+		margin-bottom: 18px;
+	}
+	.news-form {
+		input {
+			font-size: 14px;
+			height: 46px;
+			color: $para-color;
+			border: 1px solid #707070;
+			padding-left: 25px;
+			background: $secondary-color-2;
+			width: 100%;
+			margin-bottom: 10px;
+			&::-webkit-input-placeholder {
+				color: $para-color;
+			}
+			&::-moz-placeholder {
+				color: $para-color;
+			}
+			&:-ms-input-placeholder {
+				color: $para-color;
+			}
+			&::-ms-input-placeholder {
+				color: $para-color;
+			}
+			&::placeholder {
+				color: $para-color;
+			}
+		}
+		button {
+			font-size: 16px;
+			color: $white-color;
+			font-weight: 700;
+			display: block;
+			background: $primary-color;
+			border: none;
+			padding: 12px 0;
+			width: 100%;
+		}
+	}
+	.insta-pic {
+		img {
+			margin-right: 5px;
+			width: calc(33.33% - 5px);
+			float: left;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
